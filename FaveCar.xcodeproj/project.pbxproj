@@ -13,6 +13,7 @@
 		E52719372141CF300078DE27 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E52719352141CF300078DE27 /* LaunchScreen.storyboard */; };
 		E5C4E54421424C7200ED0FCF /* carTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C4E54321424C7200ED0FCF /* carTableViewController.swift */; };
 		E5C4E54621424E9300ED0FCF /* AddCarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C4E54521424E9300ED0FCF /* AddCarViewController.swift */; };
+		E5E9957A2144DA6800BAAADE /* CarTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E995792144DA6800BAAADE /* CarTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		E52719382141CF300078DE27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E5C4E54321424C7200ED0FCF /* carTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = carTableViewController.swift; sourceTree = "<group>"; };
 		E5C4E54521424E9300ED0FCF /* AddCarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCarViewController.swift; sourceTree = "<group>"; };
+		E5E995792144DA6800BAAADE /* CarTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				E52719382141CF300078DE27 /* Info.plist */,
 				E5C4E54321424C7200ED0FCF /* carTableViewController.swift */,
 				E5C4E54521424E9300ED0FCF /* AddCarViewController.swift */,
+				E5E995792144DA6800BAAADE /* CarTableViewCell.swift */,
 			);
 			path = FaveCar;
 			sourceTree = "<group>";
@@ -140,6 +143,7 @@
 			files = (
 				E5C4E54621424E9300ED0FCF /* AddCarViewController.swift in Sources */,
 				E5C4E54421424C7200ED0FCF /* carTableViewController.swift in Sources */,
+				E5E9957A2144DA6800BAAADE /* CarTableViewCell.swift in Sources */,
 				E527192D2141CF2D0078DE27 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

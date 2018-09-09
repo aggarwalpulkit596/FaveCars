@@ -39,5 +39,9 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Fave Car Needs your Photos</string>
+	<key>NSCameraUsageDescription</key>
+	<string>Face Car Needs Your Camera</string>
 </dict>
 </plist>
