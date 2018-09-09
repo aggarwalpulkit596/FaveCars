@@ -74,6 +74,7 @@
                                     <outlet property="carImgView" destination="U6z-vp-1za" id="dLP-r1-oeW"/>
                                     <outlet property="numberLabel" destination="C6t-40-XIZ" id="05e-Vi-pz9"/>
                                     <outlet property="titleLabel" destination="NcI-NZ-Nd8" id="5cq-AP-VWQ"/>
+                                    <segue destination="dIu-ai-WCt" kind="show" identifier="identifier" trigger="accessoryAction" id="ufp-rZ-3Pe"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -226,4 +227,7 @@
     <resources>
         <image name="photo-camera" width="512" height="512"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="ufp-rZ-3Pe"/>
+    </inferredMetricsTieBreakers>
 </document>

@@ -19,6 +19,8 @@ class AddCarViewController: UIViewController,UITextFieldDelegate,UIImagePickerCo
     
     @IBOutlet weak var charCount: UILabel!
     
+    
+    
     let photoPicker = UIImagePickerController()
 
     var imagepicked = false

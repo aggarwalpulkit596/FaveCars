@@ -13,6 +13,7 @@ var imagesArray = [UIImage]()
 
 
 class carTableViewController: UITableViewController {
+    var name = ""
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -91,29 +92,25 @@ class carTableViewController: UITableViewController {
         }    
     }
  
-    /*
-    // Override to support rearranging the table view.
-    override func tableView(_ tableView: UITableView, moveRowAt fromIndexPath: IndexPath, to: IndexPath) {
-
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        
+        name = namesArray[indexPath.row]
+        
+        performSegue(withIdentifier: "identifier", sender: self)
     }
-    */
-
-    /*
-    // Override to support conditional rearranging of the table view.
-    override func tableView(_ tableView: UITableView, canMoveRowAt indexPath: IndexPath) -> Bool {
-        // Return false if you do not want the item to be re-orderable.
-        return true
+    
+     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+     
+     if let myIndexPath = tableView.indexPathForSelectedRow
+     {
+     let name = namesArray[myIndexPath.row]
+     let image = imagesArray[myIndexPath.row]
+    if segue.identifier == "test"{
+     let destinationVC = segue.destination as! AddCarViewController
+        destinationVC.carImgView.image = image
+        destinationVC.nameTextField.text = name
+     }
+     }
     }
-    */
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }
